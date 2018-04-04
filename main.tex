@@ -1,0 +1,67 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Manual de usuario Turismo App}
+\date{Abril 2018}
+\author{Aguilera, Mayerlin C.I: 24.290.965,\\
+        Castañeda, Jhosevic C.I: 26.960.725, \\
+        Mendoza, Víctor C.I: 21.476.548, \\
+        Mota, Sergio C.I: 21.098.290}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{imakeidx}
+\makeindex
+
+\begin{document}
+
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+\section{Página principal}
+Al abrir el programa, se mostrará una interfaz por consola con las posibles opciones a ejecutar. Pudiendo volver atrás siempre que se quiera, ingresando "GO BACK!!!" en alguno de los campos
+//Inserte figura del menú principal
+\subsection{Login}
+A la hora de logearse, se pedirá ingresar las credenciales del usuario para comprobar si sus datos son correctos, y, dependiendo se sus privilegios, se pasará de un menú a otro.
+
+\subsection{Register}
+Se le preguntará al usuario el nombre de usuario y la contraseña deseada. Asimismo se le asignarán valores genéricos para el resto de los campos, los cuales deberán ser cambiados posteriormente antes de realizar cualquier transacción con la aplicación.
+
+\section{Menú usuario}
+Al ingresar a la aplicación, se le permitirá al usuario cambiar sus datos por unos más acordes a su gusto. Lo único que no se permitirá cambiar, será el id de usuario.
+
+\section{Menú de administrador}
+Al administrador, se le permiten las siguientes acciones:
+\begin{enumerate}
+    \item Registrar ruta
+    \item Registrar hospedaje
+    \item Reportes
+\end{enumerate}
+
+\subsection{Registrar ruta}
+El administrador puede registrar una ruta nueva, siempre y cuando suministre los datos necesarios, separados por un punto y coma (;) cada uno.
+En caso de haber ocurrido un error durante el registro, se le notificará al usuario.
+
+\subsection{Registrar hospedaje}
+El administrador puede registrar un nuevo hospedaje, siempre y cuando suministre los datos necesarios para dicha acción, los cuales deben estar separados con un punto y coma (;).
+
+\subsection{Reportes}
+Se pueden realizar las siguientes acciones:
+\begin{enumerate}
+    \item Total de visitas por destino
+    \item Proveedores de transporte por empresa
+    \item Proveedores de residencia por empresa
+\end{enumerate}
+\paragraph{Total de visitas por destino}\mbox{}\\
+Se muestra por pantalla un conjunto de tuplas, que indica el destino turístico en cuestión y la cantidad de visitas para dicho destino.
+
+\paragraph{Proveedores de transporte por empresa}\mbox{}\\
+Se muestra todos los proveedores de transporte que han contratado una determinada empresa, ordenados ascendentemente por la cantidad de veces que se ha contratado.
+
+\paragraph{Proveedores de residencia por empresa}\mbox{}\\
+Se muestra todos los proveedores de residencia que han contratado una determinada empresa, ordenados ascendentemente por la cantidad de veces que se ha contratado.
+
+\end{document}
+
